@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+      
+oauth:
+  client-id: web_app
+  client_secret: secret
+  checkTokenEndpoint: http://localhost:7070/uaa/oauth/check_token      
+
+
