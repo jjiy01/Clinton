@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: authService
+    
+server:
+  port: 7070
+  context-path: /uaa
+  
+logging:
+  level:
+    org.springframework: debug
