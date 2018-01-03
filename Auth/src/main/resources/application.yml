@@ -5,7 +5,12 @@ spring:
 server:
   port: 7070
   context-path: /uaa
-  
+
 logging:
   level:
     org.springframework: debug
+    
+#security:
+#  oauth2:
+#    authorization:
+#      check-token-access: isAuthenticated()

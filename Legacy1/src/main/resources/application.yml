@@ -3,7 +3,13 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
-      
+
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:7070/uaa/user
+      preferTokenInfo: false
+       
 oauth:
   client-id: web_app
   client_secret: secret
